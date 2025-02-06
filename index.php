@@ -1,4 +1,7 @@
 <?php
+//Set env
+$env = parse_ini_file(__DIR__ . '/.env');
+
 // Mailbox connection string for POP3 with SSL/TLS
 $mailbox = '{pop3.abv.bg:995/pop3/ssl}INBOX';
 
